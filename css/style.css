@@ -1,0 +1,306 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/**
+font-family: 'Roboto', sans-serif;
+font-family: 'Ysabeau', sans-serif;
+*/
+
+@font-face {
+    font-family: yessy;
+    src: url(../assets/fonts/Yessy\ Font\ by\ Situjuh\ \(7NTypes\).ttf);
+}
+
+
+.hero{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100vh;
+    background-image: url(../assets/img/lemonpie.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 10px 20px 30px 40px;
+    position: fixed;
+    flex-direction: row;
+    gap: 30px;
+}
+.navbar li{
+    display: inline;
+}
+a{
+    text-decoration: none;
+}
+.introduccion{
+    font-family: yessy;
+    color: rgba(134, 112, 112, 1);
+    word-spacing: 15px;
+    font-weight: 300px;
+    text-align: center;
+}
+.redesSociales{
+    margin: 50px;
+    display: inline;
+    position: fixed;
+    bottom:0;
+    right: 0;
+}
+
+
+.nosotros{
+    display: grid;
+    font-family: yessy;
+    padding-top: 100px;    
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    margin-top: 10px;
+}
+.Descripcion{
+    display: grid;
+    font-family:'Ysabeau', sans-serif; 
+    text-align: justify;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 4;
+}
+.galeria-imagenes{
+    display: grid;
+    margin-top: 100px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+.img1{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 4;
+}
+.img2{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+.img3{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+
+
+
+
+.producto{
+    display: grid;
+    width: 100%;
+    height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+}
+.titulo1{
+    font-family: yessy;
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+.titulo2{
+    display: grid;
+    justify-content: center;
+    margin-top: 50px;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+.Dulce{
+    display: flex;
+    margin-top: 100px;
+    width: 50px;
+    height: 50px;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    gap: 100px;
+    margin-left: 100px;
+}
+.titulo3{
+    display: grid;
+    justify-content: center;
+    margin-top: 200px;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+.Pastas{
+    display: flex;
+    margin-top: 300px;
+    width: 50px;
+    height: 50px;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    gap: 100%;
+    margin-left: 100px;
+}
+
+
+
+
+
+
+
+
+.contenedor{
+    width: 100%;
+    background-image: url(../assets/img/cookie.jpg);
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+.descuento{
+    text-align: center;
+    background-color: rgba(228, 208, 208, 1);
+}
+
+.oferta{
+    text-align: center;
+    background-color:  rgba(228, 208, 208, 1);
+}
+.vendidos{
+    font-family: yessy;
+    color:rgba(134, 112, 112, 1);
+}
+.productosVendidos{
+    display: flex;
+}
+
+
+
+
+
+
+
+.contacto{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    background-image: url(../assets/img/mini-tarta-lemon.jpg);
+    background-size: cover;
+}
+.envios{
+    display: grid;
+    font-size: 16px;
+    font-family: yessy;
+    color: rgba(134, 112, 112, 1);
+    justify-content: center;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 4;
+    grid-row-end: 5;
+}
+.contacto2{
+    display: grid;
+    justify-content: center;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+.formulario{
+    display: grid;
+    object-fit: cover;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+.mapa{
+    display: grid;
+    object-fit: cover;
+    justify-content: center;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+
+@media (max-width:1024px){
+    .navbar{
+        display: inline;
+        text-align: center;
+        background-color:rgba(134, 112, 112, 0.092);
+    }
+}
+
+@media (max-width:768px){
+    .navbar{
+        display: inline;
+        padding-left: 15px;
+        background-color:rgba(245, 245, 220, 0.26);
+    }
+    .Dulce{
+        object-position: center;
+        display: inline;
+        margin-top: 100px;
+        width: 50px;
+        height: 50px;
+        gap: 200px;
+        margin-left: 100px;
+    }
+    .Pastas{
+        padding-top: 1000px;
+        display: inline;
+        margin-top: 300px;
+        width: 50px;
+        height: 50px;
+        gap: 100%;
+        margin-left: 100px;
+    }
+    .titulo3{
+        padding-top: 1000px;
+        display: flex;
+        justify-content: center;
+        margin-top: 200px;
+    }
+    .titulo1{
+        font-family: yessy;
+        text-align: center;
+        display: flex;
+        padding: 500px;
+    }
+}
+
+@media (max-width:425px){
+    .navbar{
+        display: inline;
+        background-color: rgba(245, 245, 220, 0.26);
+    }
+}
