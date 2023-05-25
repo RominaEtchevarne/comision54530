@@ -117,6 +117,7 @@ a{
     grid-template-rows: repeat(4, 1fr);
 }
 .titulo1{
+    margin-top: 100px;
     font-family: yessy;
     display: grid;
     grid-column-start: 1;
@@ -127,7 +128,7 @@ a{
 .titulo2{
     display: grid;
     justify-content: center;
-    margin-top: 50px;
+    margin-top: 150px;
     grid-column-start: 2;
     grid-column-end: 3;
     grid-row-start: 2;
@@ -135,7 +136,7 @@ a{
 }
 .Dulce{
     display: flex;
-    margin-top: 100px;
+    margin-top: 200px;
     width: 50px;
     height: 50px;
     grid-column-start: 1;
@@ -148,7 +149,7 @@ a{
 .titulo3{
     display: grid;
     justify-content: center;
-    margin-top: 200px;
+    margin-top: 400px;
     grid-column-start: 2;
     grid-column-end: 3;
     grid-row-start: 3;
@@ -157,14 +158,14 @@ a{
 
 .Pastas{
     display: flex;
-    margin-top: 300px;
+    margin-top: 500px;
     width: 50px;
     height: 50px;
     grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 3;
     grid-row-end: 4;
-    gap: 100%;
+    gap: 100px;
     margin-left: 100px;
 }
 
