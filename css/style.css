@@ -55,7 +55,7 @@ a{
 
 
 .nosotros{
-    display: grid;
+    display: flex;
     font-family: yessy;
     padding-top: 100px;    
     grid-template-columns: repeat(3, 1fr);
@@ -185,6 +185,7 @@ a{
     text-align: center;
 }
 .descuento{
+    padding-top: 20px;
     text-align: center;
     background-color: rgba(228, 208, 208, 1);
 }
@@ -192,13 +193,17 @@ a{
 .oferta{
     text-align: center;
     background-color:  rgba(228, 208, 208, 1);
+    padding-bottom: 20px;
 }
 .vendidos{
+    padding-top: 100px;
     font-family: yessy;
     color:rgba(134, 112, 112, 1);
 }
 .productosVendidos{
+    margin-top: 30px;
     display: flex;
+    gap: 10px;
 }
 
 
@@ -235,6 +240,7 @@ a{
     grid-row-end: 3;
 }
 .formulario{
+    padding-top: 30px;
     display: grid;
     object-fit: cover;
     grid-column-start: 2;
