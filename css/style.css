@@ -274,6 +274,7 @@ a{
         padding-left: 120px;
         padding-right: 120px;
         background-color:rgba(245, 245, 220, 0.26);
+        position: absolute;
     }
     .formulario{
         padding-top: 30px;
@@ -303,6 +304,20 @@ a{
         grid-row-start: 3;
         grid-row-end: 4;
         padding-top: 10px;
+    }
+
+
+    .nosotros{
+        display: flex;
+        font-family: yessy;
+        padding-top: 100px;    
+        padding-top: 200px;
+    }
+    .galeria-imagenes{
+        display: grid;
+        margin-top: 100px;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 1fr);
     }
 }
 
