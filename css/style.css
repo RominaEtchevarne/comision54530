@@ -328,7 +328,37 @@ a{
         display: inline;
         gap: 10px;
     }
+
+
+    .galeria-imagenes{
+        display: inline;
+        margin-top: 100px;
+    }
+
+
+
+
+    .titulo1{
+        margin-top: 200px;
+    }
+    .titulo2{
+        margin-top: 250px;
+    }
+    .Dulce{
+        display: inline;
+        margin-top: 300px;
+    }
+    .titulo3{
+        margin-top: 1170px;
+    }
+    
+    .Pastas{
+        display: inline;
+        margin-top: 1250px;
+    }
+    
 }
+
 
 @media (max-width:425px){
     .navbar{
@@ -370,4 +400,23 @@ a{
         text-align: center;
     }
     
+    .galeria-imagenes{
+        display: inline;
+        margin-top: 100px;
+    }
+    .nosotros{
+        display: flex;
+        font-family: yessy;
+        padding-top: 300px;    
+        margin-top: 10px;
+    }
+    .Descripcion{
+        display: flex;
+        font-family:'Ysabeau', sans-serif; 
+        text-align: justify;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
 }
