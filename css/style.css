@@ -18,11 +18,14 @@ font-family: 'Ysabeau', sans-serif;
 .hero{
     display: flex;
     justify-content: space-between;
-    width: 100%;
-    height: 100vh;
-    background-image: url(../assets/img/lemonpie.jpg);
+    /*width: 100%;
+    height: 100vh;*/
+    /**background-image: url(../assets/img/lemonpie.jpg); */
     background-repeat: no-repeat;
     background-size: cover;
+}
+.container{
+    padding-top: 100px;
 }
 .navbar{
     display: flex;
