@@ -1,23 +1,20 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
-}
+  box-sizing: border-box; }
 
 .hero {
   justify-content: center;
   display: flex;
   /*justify-content: space-between;*/
   /*width: 100%;
-  height: 100vh;*/
+    height: 100vh;*/
   /**background-image: url(../assets/img/lemonpie.jpg); */
   background-repeat: no-repeat;
-  background-size: cover;
-}
+  background-size: cover; }
 
 .container {
-  padding-top: 100px;
-}
+  padding-top: 100px; }
 
 .navbar {
   display: flex;
@@ -26,67 +23,57 @@
   position: fixed;
   flex-direction: row;
   gap: 30px;
-  z-index: 1;
-}
+  z-index: 1; }
 
 .navbar li {
-  display: inline;
-}
+  display: inline; }
 
 a {
-  text-decoration: none;
-}
+  text-decoration: none; }
 
 .introduccion {
   font-family: yessy;
-  color: rgb(134, 112, 112);
+  color: #867070;
   word-spacing: 15px;
   font-weight: 300px;
-  text-align: center;
-}
+  text-align: center; }
 
 .redesSociales {
   margin: 50px;
   display: inline;
   position: fixed;
   bottom: 0;
-  right: 0;
-}
+  right: 0; }
 
 /**
 font-family: 'Roboto', sans-serif;
-font-family: 'Ysabeau', sans-serif;
-*/
-@font-face {
-  font-family: yessy;
-  src: url(../assets/fonts/Yessy\ Font\ by\ Situjuh\ \(7NTypes\).ttf);
-}
+font-family: 'Ysabeau', sans-serif;*/
+/*@font-face {
+    font-family: yessy;
+    src: url(../assets/fonts/Yessy\ Font\ by\ Situjuh\ \(7NTypes\).ttf);
+}*/
 .carousel-caption {
-  color: rgb(255, 255, 255);
-  margin-bottom: 400px;
-  align-items: center;
-}
+  color: white;
+  align-items: center; }
 
 .carousel {
   word-spacing: 15px;
-  font-size: 50px;
+  font-size: 70px;
   text-align: center;
-}
+  font-family: yessy; }
 
 .hero {
   justify-content: center;
   display: flex;
   /*justify-content: space-between;*/
   /*width: 100%;
-  height: 100vh;*/
+    height: 100vh;*/
   /**background-image: url(../assets/img/lemonpie.jpg); */
   background-repeat: no-repeat;
-  background-size: cover;
-}
+  background-size: cover; }
 
 .container {
-  padding-top: 100px;
-}
+  padding-top: 100px; }
 
 .navbar {
   display: flex;
@@ -95,32 +82,27 @@ font-family: 'Ysabeau', sans-serif;
   position: fixed;
   flex-direction: row;
   gap: 30px;
-  z-index: 1;
-}
+  z-index: 1; }
 
 .navbar li {
-  display: inline;
-}
+  display: inline; }
 
 a {
-  text-decoration: none;
-}
+  text-decoration: none; }
 
 .introduccion {
   font-family: yessy;
-  color: rgb(134, 112, 112);
+  color: #867070;
   word-spacing: 15px;
   font-weight: 300px;
-  text-align: center;
-}
+  text-align: center; }
 
 .redesSociales {
   margin: 50px;
   display: inline;
   position: fixed;
   bottom: 0;
-  right: 0;
-}
+  right: 0; }
 
 .contacto {
   display: grid;
@@ -128,29 +110,40 @@ a {
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr);
   background-image: url(../assets/img/mini-tarta-lemon.jpg);
-  background-size: cover;
-}
+  background-size: cover; }
 
 .envios {
   display: grid;
   font-size: 16px;
   font-family: yessy;
-  color: rgb(134, 112, 112);
+  color: #867070;
   justify-content: center;
   grid-column-start: 2;
   grid-column-end: 3;
   grid-row-start: 4;
-  grid-row-end: 5;
-}
+  grid-row-end: 5; }
 
 .contacto2 {
   display: grid;
+  align-content: center;
   justify-content: center;
   grid-column-start: 1;
   grid-column-end: 2;
   grid-row-start: 2;
   grid-row-end: 3;
-}
+  font-family: yessy; }
+
+.pueblo {
+  display: flex;
+  gap: 15px; }
+
+.horario {
+  display: flex;
+  gap: 15px; }
+
+.telefonos {
+  display: flex;
+  gap: 15px; }
 
 .formulario {
   padding-top: 30px;
@@ -160,7 +153,8 @@ a {
   grid-column-end: 3;
   grid-row-start: 3;
   grid-row-end: 4;
-}
+  align-content: center;
+  justify-content: center; }
 
 .mapa {
   display: grid;
@@ -169,8 +163,7 @@ a {
   grid-column-start: 2;
   grid-column-end: 3;
   grid-row-start: 2;
-  grid-row-end: 3;
-}
+  grid-row-end: 3; }
 
 .nosotros {
   display: flex;
@@ -178,25 +171,22 @@ a {
   padding-top: 100px;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr);
-  margin-top: 10px;
-}
+  margin-top: 10px; }
 
 .Descripcion {
   display: grid;
-  font-family: "Ysabeau", sans-serif;
+  font-family: 'Ysabeau', sans-serif;
   text-align: justify;
   grid-column-start: 1;
   grid-column-end: 2;
   grid-row-start: 1;
-  grid-row-end: 4;
-}
+  grid-row-end: 4; }
 
 .galeria-imagenes {
   display: grid;
   margin-top: 100px;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(3, 1fr);
-}
+  grid-template-rows: repeat(3, 1fr); }
 
 .img1 {
   width: 100%;
@@ -205,8 +195,7 @@ a {
   grid-column-start: 2;
   grid-column-end: 3;
   grid-row-start: 1;
-  grid-row-end: 4;
-}
+  grid-row-end: 4; }
 
 .img2 {
   width: 100%;
@@ -215,8 +204,7 @@ a {
   grid-column-start: 3;
   grid-column-end: 4;
   grid-row-start: 1;
-  grid-row-end: 2;
-}
+  grid-row-end: 2; }
 
 .img3 {
   width: 100%;
@@ -225,16 +213,14 @@ a {
   grid-column-start: 3;
   grid-column-end: 4;
   grid-row-start: 2;
-  grid-row-end: 3;
-}
+  grid-row-end: 3; }
 
 .producto {
   display: grid;
   width: 100%;
   height: 100vh;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(4, 1fr);
-}
+  grid-template-rows: repeat(4, 1fr); }
 
 .titulo1 {
   margin-top: 100px;
@@ -243,8 +229,7 @@ a {
   grid-column-start: 1;
   grid-column-end: 2;
   grid-row-start: 2;
-  grid-row-end: 3;
-}
+  grid-row-end: 3; }
 
 .titulo2 {
   display: grid;
@@ -253,8 +238,7 @@ a {
   grid-column-start: 2;
   grid-column-end: 3;
   grid-row-start: 2;
-  grid-row-end: 3;
-}
+  grid-row-end: 3; }
 
 .Dulce {
   display: flex;
@@ -266,8 +250,7 @@ a {
   grid-row-start: 2;
   grid-row-end: 3;
   gap: 100px;
-  margin-left: 100px;
-}
+  margin-left: 100px; }
 
 .titulo3 {
   display: grid;
@@ -276,8 +259,7 @@ a {
   grid-column-start: 2;
   grid-column-end: 3;
   grid-row-start: 3;
-  grid-row-end: 4;
-}
+  grid-row-end: 4; }
 
 .Pastas {
   display: flex;
@@ -289,8 +271,7 @@ a {
   grid-row-start: 3;
   grid-row-end: 4;
   gap: 100px;
-  margin-left: 100px;
-}
+  margin-left: 100px; }
 
 .contenedor {
   width: 100%;
@@ -299,48 +280,41 @@ a {
   justify-content: center;
   background-repeat: no-repeat;
   background-size: cover;
-  text-align: center;
-}
+  text-align: center; }
 
 .descuento {
   padding-top: 200px;
-  text-align: center;
-}
+  text-align: center; }
 
 .oferta {
   text-align: center;
-  background-color: rgb(228, 208, 208);
+  background-color: #e4d0d0;
   padding-bottom: 20px;
-  padding-top: 20px;
-}
+  padding-top: 20px; }
 
 .vendidos {
   padding-top: 100px;
   font-family: yessy;
-  color: rgb(134, 112, 112);
-}
+  color: #867070; }
 
 .productosVendidos {
   margin-top: 30px;
   display: flex;
-  gap: 10px;
-}
+  gap: 10px; }
 
 .redesSociales {
   margin: 50px;
   display: inline;
   position: fixed;
   bottom: 0;
-  right: 0;
-}
+  right: 0; }
 
 @media (max-width: 1024px) {
   .navbar {
     display: inline;
     text-align: center;
-    background-color: rgba(134, 112, 112, 0.092);
-  }
-}
+    background-color: rgba(134, 112, 112, 0.092); } }
+
 @media (max-width: 768px) {
   .navbar {
     padding-top: 15px;
@@ -348,8 +322,7 @@ a {
     padding-left: 120px;
     padding-right: 120px;
     background-color: rgba(245, 245, 220, 0.26);
-    position: absolute;
-  }
+    position: absolute; }
   .formulario {
     padding-top: 30px;
     display: grid;
@@ -357,8 +330,7 @@ a {
     grid-column-start: 2;
     grid-column-end: 3;
     grid-row-start: 2;
-    grid-row-end: 3;
-  }
+    grid-row-end: 3; }
   .contacto2 {
     display: grid;
     justify-content: center;
@@ -367,8 +339,7 @@ a {
     grid-row-start: 2;
     grid-row-end: 3;
     padding-top: 100px;
-    text-transform: inherit;
-  }
+    text-transform: inherit; }
   .mapa {
     display: grid;
     object-fit: cover;
@@ -377,47 +348,37 @@ a {
     grid-column-end: 3;
     grid-row-start: 3;
     grid-row-end: 4;
-    padding-top: 10px;
-  }
+    padding-top: 10px; }
   .nosotros {
     display: flex;
     font-family: yessy;
     padding-top: 100px;
-    padding-top: 200px;
-  }
+    padding-top: 200px; }
   .galeria-imagenes {
     display: grid;
     margin-top: 100px;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-  }
+    grid-template-rows: repeat(3, 1fr); }
   .productosVendidos {
     margin-top: 30px;
     display: inline;
-    gap: 10px;
-  }
+    gap: 10px; }
   .galeria-imagenes {
     display: inline;
-    margin-top: 100px;
-  }
+    margin-top: 100px; }
   .titulo1 {
-    margin-top: 200px;
-  }
+    margin-top: 200px; }
   .titulo2 {
-    margin-top: 250px;
-  }
+    margin-top: 250px; }
   .Dulce {
     display: inline;
-    margin-top: 300px;
-  }
+    margin-top: 300px; }
   .titulo3 {
-    margin-top: 1170px;
-  }
+    margin-top: 1170px; }
   .Pastas {
     display: inline;
-    margin-top: 1250px;
-  }
-}
+    margin-top: 1250px; } }
+
 @media (max-width: 425px) {
   .navbar {
     padding-top: 15px;
@@ -425,8 +386,7 @@ a {
     padding-left: 105px;
     padding-right: 120px;
     background-color: rgba(245, 245, 220, 0.26);
-    position: absolute;
-  }
+    position: absolute; }
   .formulario {
     padding-top: 30px;
     display: grid;
@@ -436,8 +396,7 @@ a {
     grid-row-start: 2;
     grid-row-end: 3;
     padding-left: 50px;
-    padding-right: 50px;
-  }
+    padding-right: 50px; }
   .contacto2 {
     display: grid;
     justify-content: center;
@@ -448,31 +407,23 @@ a {
     padding-top: 200px;
     text-transform: inherit;
     padding-left: 50px;
-    padding-right: 50px;
-  }
+    padding-right: 50px; }
   .descuento {
     padding-top: 300px;
-    text-align: center;
-  }
+    text-align: center; }
   .galeria-imagenes {
     display: inline;
-    margin-top: 100px;
-  }
+    margin-top: 100px; }
   .nosotros {
     display: flex;
     font-family: yessy;
     padding-top: 300px;
-    margin-top: 10px;
-  }
+    margin-top: 10px; }
   .Descripcion {
     display: flex;
-    font-family: "Ysabeau", sans-serif;
+    font-family: 'Ysabeau', sans-serif;
     text-align: justify;
     margin-top: 10px;
     margin-bottom: 10px;
     margin-left: 10px;
-    margin-right: 10px;
-  }
-}
-
-/*# sourceMappingURL=style.css.map */
+    margin-right: 10px; } }

@@ -1,6 +1,5 @@
 
 
-
 .contacto{
     display: grid;
     justify-content: center;
@@ -19,14 +18,29 @@
     grid-column-end: 3;
     grid-row-start: 4;
     grid-row-end: 5;
+
 }
 .contacto2{
     display: grid;
+    align-content: center;
     justify-content: center;
     grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 2;
     grid-row-end: 3;
+    font-family: yessy;
+}
+.pueblo{
+    display: flex;
+    gap: 15px;
+}
+.horario{
+    display: flex;
+    gap: 15px;
+}
+.telefonos{
+    display: flex;
+    gap: 15px;
 }
 .formulario{
     padding-top: 30px;
@@ -36,6 +50,8 @@
     grid-column-end: 3;
     grid-row-start: 3;
     grid-row-end: 4;
+    align-content: center;
+    justify-content: center
 }
 .mapa{
     display: grid;
