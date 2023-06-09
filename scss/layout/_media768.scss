@@ -1,0 +1,90 @@
+@media (max-width:768px){
+    .navbar{
+        padding-top: 15px;
+        display: inline;
+        padding-left: 120px;
+        padding-right: 120px;
+        background-color:rgba(245, 245, 220, 0.26);
+        position: absolute;
+    }
+    .formulario{
+        padding-top: 30px;
+        display: grid;
+        object-fit: cover;
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+    .contacto2{
+        display: grid;
+        justify-content: center;
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 2;
+        grid-row-end: 3;
+        padding-top: 100px;
+        text-transform: inherit;
+    }
+    .mapa{
+        display: grid;
+        object-fit: cover;
+        justify-content: center;
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 3;
+        grid-row-end: 4;
+        padding-top: 10px;
+    }
+
+
+    .nosotros{
+        display: flex;
+        font-family: yessy;
+        padding-top: 100px;    
+        padding-top: 200px;
+    }
+    .galeria-imagenes{
+        display: grid;
+        margin-top: 100px;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+    }
+
+
+
+    .productosVendidos{
+        margin-top: 30px;
+        display: inline;
+        gap: 10px;
+    }
+
+
+    .galeria-imagenes{
+        display: inline;
+        margin-top: 100px;
+    }
+
+
+
+
+    .titulo1{
+        margin-top: 200px;
+    }
+    .titulo2{
+        margin-top: 250px;
+    }
+    .Dulce{
+        display: inline;
+        margin-top: 300px;
+    }
+    .titulo3{
+        margin-top: 1170px;
+    }
+    
+    .Pastas{
+        display: inline;
+        margin-top: 1250px;
+    }
+    
+}
