@@ -1,6 +1,15 @@
 
+.cards{
+  display: flex;
+  padding-top: 100px;
+  gap: 50px;
+}
 
-.producto {
+.card{
+  justify-content: center;
+}
+
+/*.producto {
     display: grid;
     width: 100%;
     height: 100vh;
@@ -62,4 +71,4 @@
     grid-row-end: 4;
     gap: 100px;
     margin-left: 100px;
-  }
+  }*/
