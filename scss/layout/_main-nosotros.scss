@@ -7,7 +7,9 @@
     grid-template-rows: repeat(3, 1fr);
     margin-top: 10px;
 }
+
 .Descripcion{
+    justify-content: center;
     display: grid;
     font-family:'Ysabeau', sans-serif; 
     text-align: justify;
