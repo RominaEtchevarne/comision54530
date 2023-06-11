@@ -7,6 +7,11 @@
     background-size: cover;
     text-align: center;
 }
+.cards2{
+    display: flex;
+    padding-top: 100px;
+    gap: 50px;
+}
 .descuento{
     padding-top: 200px;
     text-align: center;
@@ -18,8 +23,9 @@
     padding-bottom: 20px;
     padding-top: 20px;
 }
+
 .vendidos{
-    padding-top: 100px;
+    padding-top: 50px;
     font-family: yessy;
     color:rgba(134, 112, 112, 1);
 }
