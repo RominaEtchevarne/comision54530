@@ -8,20 +8,25 @@
     background-size: cover;
 }
 
+
 .container{
-    padding-top: 100px;
+    padding-top: 80px;
 }
 .navbar{
+    margin-top: 10px;
     display: flex;
     align-items: center;
     /*padding: 10px 20px 30px 40px;*/
     position: absolute;
     flex-direction: row;
-    gap: 30px;
+    gap: 40px;
     z-index: 1;
 }
 .navbar li{
     display: inline;
+}
+.navbar li:hover{
+    transform: scale(1.05);
 }
 a{
     text-decoration: none;
