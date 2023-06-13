@@ -7,7 +7,54 @@
 }
 .carousel{
     word-spacing: 15px;
-    font-size: 70px;
     text-align: center;
     font-family: yessy;
 }
+
+.text-focus-in {
+  font-size: 70px;
+  -webkit-animation: text-focus-in 1.5s ease-out ;
+          animation: text-focus-in 1.5s ease-out ;
+}
+@-webkit-keyframes text-focus-in {
+  0% {
+    -webkit-filter: blur(12px);
+            filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-filter: blur(0px);
+            filter: blur(0px);
+    opacity: 1;
+  }
+}
+@keyframes text-focus-in {
+  0% {
+    -webkit-filter: blur(12px);
+            filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-filter: blur(0px);
+            filter: blur(0px);
+    opacity: 1;
+  }
+}
+
+
+.cards{
+    display: flex;
+    padding-top: 100px;
+    gap: 50px;
+  }
+  
+  .card{
+    justify-content: center;
+    text-align: center;
+  }
+  .btn {
+    align-items: center;
+  }
+  .card:hover{
+    transform: scale(1.05);
+  }

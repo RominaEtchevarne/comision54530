@@ -2,7 +2,7 @@
 .nosotros{
     display: flex;
     font-family: yessy;
-    color:rgba(134, 112, 112, 1);
+    color: $color-principal;
     padding-top: 100px;    
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);

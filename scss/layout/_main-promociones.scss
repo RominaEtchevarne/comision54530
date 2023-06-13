@@ -19,7 +19,7 @@
 
 .oferta{
     text-align: center;
-    background-color:  rgb(228, 208, 208);
+    background-color: $color-terciario;
     padding-bottom: 20px;
     padding-top: 20px;
 }
@@ -27,7 +27,7 @@
 .vendidos{
     padding-top: 50px;
     font-family: yessy;
-    color:rgba(134, 112, 112, 1);
+    color: $color-principal;
 }
 .productosVendidos{
     margin-top: 30px;
