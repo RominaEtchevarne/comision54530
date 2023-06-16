@@ -1,0 +1,35 @@
+.hero{
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 120px;
+    padding-bottom: 30px;
+}
+.container{
+    padding-top: 80px;
+}
+.navbar{
+    @include flex(row,wrap,space-between,center,40px);
+    margin-top: 10px;
+    position: absolute;
+    z-index: 1;
+}
+.navbar li{
+    display: inline;
+}
+.navbar li:hover{
+    transform: scale(1.05);
+}
+a{
+    text-decoration: none;
+}
+/*.navbar #toggle{
+    display: none;
+}*/
+.introduccion{
+    @include tipografia;
+    color: $color-principal;
+    word-spacing: 15px;
+    font-weight: 300px;
+    text-align: center;
+}

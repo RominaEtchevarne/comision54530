@@ -1,0 +1,27 @@
+.contenedor{
+    width: 100%;
+    height: 250px;
+    background-image: url(../assets/img/cookie.jpg);
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+.descuento{
+    padding-top: 100px;
+    text-align: center;
+}
+.oferta{
+    text-align: center;
+    background-color: $color-terciario;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.vendidos{
+    @include tipografia;
+    padding-top: 50px;
+    color: $color-principal;
+    text-align: center;
+}
