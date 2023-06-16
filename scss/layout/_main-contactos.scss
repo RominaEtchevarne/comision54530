@@ -1,16 +1,13 @@
 .contacto{
-    display: grid;
-    justify-content: center;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 1fr);
+    @include grid(repeat(3,1fr),repear(2,1fr),10px,center,center,);
     background-image: url(../assets/img/mini-tarta-lemon.jpg);
     background-size: cover;
     height: 100vh;
 }
 .envios{
+    @include tipografia;
     display: grid;
     font-size: 16px;
-    font-family: yessy;
     color: $color-principal;
     justify-content: center;
     grid-column-start: 2;
@@ -19,6 +16,7 @@
     grid-row-end: 5;
 }
 .contacto2{
+    @include tipografia;
     display: grid;
     align-content: center;
     justify-content: center;
@@ -26,7 +24,6 @@
     grid-column-end: 2;
     grid-row-start: 1;
     grid-row-end: 2;
-    font-family: yessy;
     margin-top: 80px;
 }
 .pueblo{
@@ -34,12 +31,10 @@
     gap: 15px;
 }
 .horario{
-    display: flex;
-    gap: 15px;
+    @extend .pueblo;
 }
 .telefonos{
-    display: flex;
-    gap: 15px;
+    @extend .pueblo;
 }
 .formulario{
     display: grid;
@@ -53,7 +48,7 @@
     margin-left: 250px;
 }
 .masInformacion{
-    font-family: yessy;
+    @include tipografia;
 }
 .mapa{
     display: grid;

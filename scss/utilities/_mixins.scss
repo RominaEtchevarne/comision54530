@@ -9,13 +9,15 @@
     gap: $gap;
 }
 
-@mixin grid ($col,$row,$gap,$areas,$content,$align) {
+@mixin grid ($col,$row,$gap,$content,$align) {
     display: grid;
     grid-template-columns: $col;
     grid-template-rows: $row;
     gap: $gap;
-    grid-template-areas: $areas;
     justify-content: $content;
     align-content: $align;
 }
 
+@mixin tipografia{
+    font-family: yessy;
+}

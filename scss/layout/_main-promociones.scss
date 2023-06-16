@@ -20,8 +20,8 @@
 }
 
 .vendidos{
+    @include tipografia;
     padding-top: 50px;
-    font-family: yessy;
     color: $color-principal;
     text-align: center;
 }

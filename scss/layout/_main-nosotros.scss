@@ -1,17 +1,14 @@
 
 .nosotros{
+    @include tipografia;
     display: flex;
-    font-family: yessy;
     color: $color-principal;
     padding-top: 150px;    
     margin-top: 10px;
     justify-content: center;
 }
 .grid{
-    display:grid;
-    grid-template-columns: repeat(6, 1fr);
-    grid-template-rows:100px 300px;
-    grid-gap: 15px;
+    @include grid (repeat (6,1fr),100px 300px, 15px, center, center) ;
 }
 
 .galeria-item{
@@ -48,7 +45,6 @@
 
 
 .galeria-container-2{
-
     grid-column-start: 3;
     grid-column-end: 5;
     grid-row-start: 1;
