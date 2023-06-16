@@ -1,97 +1,35 @@
 @media (max-width:768px){
-    .navbar{
-        padding-top: 15px;
-        padding-left: 120px;
-        padding-right: 120px;
-        position: absolute;
+    .cards{
         display: inline;
-    }
-
-    .formulario{
-        padding-top: 30px;
-        padding-left: 50px;
-        display: grid;
-        object-fit: cover;
-        grid-column-start: 2;
-        grid-column-end: 3;
-        grid-row-start: 2;
-        grid-row-end: 3;
-    }
-    .contacto2{
-        display: grid;
-        margin-top: 100px;
-        justify-content: center;
-        grid-column-start: 2;
-        grid-column-end: 3;
-        grid-row-start: 1;
-        grid-row-end: 2;
-        padding-top: 100px;
-        text-transform: inherit;
-    }
-    .masInformacion{
-        font-family: yessy;
-    }
-    .mapa{
-        display: grid;
-        object-fit: cover;
-        justify-content: center;
-        grid-column-start: 2;
-        grid-column-end: 3;
+}
+    .galeria-container-1{
+        grid-column-start: 1;
+        grid-column-end: 7;
         grid-row-start: 3;
         grid-row-end: 4;
-        padding-top: 10px;
+    }
+    .galeria-container-2{
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 1;
+        grid-row-end: 3;
+    }
+    .galeria-container-3{
+        grid-column-start: 5;
+        grid-column-end: 7;
+        grid-row-start: 1;
+        grid-row-end: 3;
+    }
+    .galeria-container-4{
+        grid-column-start: 1;
+        grid-column-end: 7;
+        grid-row-start: 4;
+        grid-row-end: 5;
     }
 
 
-    .nosotros{
-        display: flex;
-        font-family: yessy;
-        padding-top: 100px;    
-        padding-top: 200px;
-    }
-    .galeria-imagenes{
-        display: grid;
-        margin-top: 100px;
-        grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: repeat(3, 1fr);
-    }
-
-
-
-    .productosVendidos{
-        margin-top: 30px;
+    .cards2{
         display: inline;
-        gap: 10px;
-    }
-
-
-    .galeria-imagenes{
-        display: inline;
-        margin-top: 100px;
-    }
-
-
-    .titulo1{
-        margin-top: 200px;
-    }
-.titulo2{
-    padding-top: 200px;
-}
-.vendidos{
-    text-align: center;
 }
 
-    .Dulce{
-        display: inline;
-        margin-top: 300px;
-    }
-    .titulo3{
-        margin-top: 110px;
-    }
-    
-    .Pastas{
-        display: inline;
-        margin-top: 1250px;
-    }
-    
 }

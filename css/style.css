@@ -7,9 +7,6 @@
 
 .hero {
   justify-content: center;
-  /*justify-content: space-between;*/
-  /*width: 100%;
-    height: 100vh;*/
   background-repeat: no-repeat;
   background-size: cover;
   margin-left: 120px;
@@ -21,8 +18,9 @@
 .navbar {
   margin-top: 10px;
   display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
   align-items: center;
-  /*padding: 10px 20px 30px 40px;*/
   position: absolute;
   flex-direction: row;
   gap: 40px;
@@ -37,19 +35,15 @@
 a {
   text-decoration: none; }
 
+/*.navbar #toggle{
+    display: none;
+}*/
 .introduccion {
   font-family: yessy;
   color: #867070;
   word-spacing: 15px;
   font-weight: 300px;
   text-align: center; }
-
-.redesSociales {
-  margin: 50px;
-  display: inline;
-  position: fixed;
-  bottom: 0;
-  right: 0; }
 
 /**
 font-family: 'Roboto', sans-serif;
@@ -96,26 +90,226 @@ font-family: 'Ysabeau', sans-serif;*/
 .cards {
   display: flex;
   padding-top: 100px;
-  gap: 50px; }
+  gap: 20px; }
 
 .card {
+  border: none;
   justify-content: center;
   text-align: center; }
 
 .btn {
-  align-items: center; }
+  align-items: center;
+  background-color: #d5b4b4; }
 
 .card:hover {
   transform: scale(1.05); }
 
+.cards2 {
+  display: flex; }
+
+.card-title {
+  text-align: center;
+  font-family: yessy;
+  font-size: 30px; }
+
+.cards2 {
+  padding-top: 50px;
+  gap: 20px; }
+
+.titulo {
+  font-family: yessy;
+  font-size: 40px; }
+
 .button {
   padding-left: 20px; }
 
+@media (max-width: 1024px) {
+  .navbar {
+    text-align: center; } }
+
+@media (max-width: 768px) {
+  .cards {
+    display: inline; }
+  .galeria-container-1 {
+    grid-column-start: 1;
+    grid-column-end: 7;
+    grid-row-start: 3;
+    grid-row-end: 4; }
+  .galeria-container-2 {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 3; }
+  .galeria-container-3 {
+    grid-column-start: 5;
+    grid-column-end: 7;
+    grid-row-start: 1;
+    grid-row-end: 3; }
+  .galeria-container-4 {
+    grid-column-start: 1;
+    grid-column-end: 7;
+    grid-row-start: 4;
+    grid-row-end: 5; }
+  .cards2 {
+    display: inline; } }
+
+@media (max-width: 425px) {
+  .galeria-container-1 {
+    grid-column-start: 1;
+    grid-column-end: 7;
+    grid-row-start: 1;
+    grid-row-end: 7; }
+  .galeria-container-2 {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 4;
+    grid-row-end: 5; }
+  .galeria-container-3 {
+    grid-column-start: 5;
+    grid-column-end: 7;
+    grid-row-start: 4;
+    grid-row-end: 5; }
+  .galeria-container-4 {
+    grid-column-start: 1;
+    grid-column-end: 7;
+    grid-row-start: 2;
+    grid-row-end: 5;
+    height: 50%;
+    padding-top: 150px;
+    padding-bottom: 60px; }
+  .grid {
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 100px 300px;
+    grid-gap: 15px; }
+  .contacto {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    height: 250vh; }
+  .envios {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 5;
+    grid-row-end: 6; }
+  .contacto2 {
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3; }
+  .mapa {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    margin-top: 200px; }
+  .formulario {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    margin-left: 0px; } }
+
+@media (max-width: 375px) {
+  .grid {
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 100px 300px;
+    grid-gap: 15px; }
+  .galeria-container-1 {
+    grid-column-start: 1;
+    grid-row-start: 1;
+    grid-row-end: 7; }
+  .galeria-container-2 {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 3;
+    grid-row-end: 4; }
+  .galeria-container-3 {
+    grid-column-start: 5;
+    grid-column-end: 7;
+    grid-row-start: 3;
+    grid-row-end: 3; }
+  .galeria-container-4 {
+    grid-column-start: 1;
+    grid-column-end: 7;
+    grid-row-start: 5;
+    grid-row-end: 6; }
+  .contacto {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    width: 100vh; }
+  .envios {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 6;
+    grid-row-end: 7; }
+  .contacto2 {
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 2;
+    margin-top: 80px; }
+  .mapa {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    margin-top: 200px; }
+  .formulario {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    margin-left: 50px; } }
+
+@media (max-width: 320px) {
+  .grid {
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 100px 300px;
+    grid-gap: 15px; }
+  .galeria-container-1 {
+    grid-column-start: 1;
+    grid-row-start: 1;
+    grid-row-end: 7; }
+  .galeria-container-2 {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 3;
+    grid-row-end: 4; }
+  .galeria-container-3 {
+    grid-column-start: 5;
+    grid-column-end: 7;
+    grid-row-start: 3;
+    grid-row-end: 3; }
+  .galeria-container-4 {
+    grid-column-start: 1;
+    grid-column-end: 7;
+    grid-row-start: 5;
+    grid-row-end: 6; }
+  .contacto {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    width: 100vh; }
+  .envios {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 6;
+    grid-row-end: 7; }
+  .contacto2 {
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 2;
+    margin-top: 80px; }
+  .mapa {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    margin-top: 200px; }
+  .formulario {
+    margin-left: 70px; } }
+
 .hero {
   justify-content: center;
-  /*justify-content: space-between;*/
-  /*width: 100%;
-    height: 100vh;*/
   background-repeat: no-repeat;
   background-size: cover;
   margin-left: 120px;
@@ -127,8 +321,9 @@ font-family: 'Ysabeau', sans-serif;*/
 .navbar {
   margin-top: 10px;
   display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
   align-items: center;
-  /*padding: 10px 20px 30px 40px;*/
   position: absolute;
   flex-direction: row;
   gap: 40px;
@@ -143,6 +338,9 @@ font-family: 'Ysabeau', sans-serif;*/
 a {
   text-decoration: none; }
 
+/*.navbar #toggle{
+    display: none;
+}*/
 .introduccion {
   font-family: yessy;
   color: #867070;
@@ -150,20 +348,14 @@ a {
   font-weight: 300px;
   text-align: center; }
 
-.redesSociales {
-  margin: 50px;
-  display: inline;
-  position: fixed;
-  bottom: 0;
-  right: 0; }
-
 .contacto {
   display: grid;
   justify-content: center;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
   background-image: url(../assets/img/mini-tarta-lemon.jpg);
-  background-size: cover; }
+  background-size: cover;
+  height: 100vh; }
 
 .envios {
   display: grid;
@@ -182,9 +374,10 @@ a {
   justify-content: center;
   grid-column-start: 1;
   grid-column-end: 2;
-  grid-row-start: 2;
-  grid-row-end: 3;
-  font-family: yessy; }
+  grid-row-start: 1;
+  grid-row-end: 2;
+  font-family: yessy;
+  margin-top: 80px; }
 
 .pueblo {
   display: flex;
@@ -199,15 +392,18 @@ a {
   gap: 15px; }
 
 .formulario {
-  padding-top: 30px;
   display: grid;
   object-fit: cover;
-  grid-column-start: 2;
-  grid-column-end: 3;
-  grid-row-start: 3;
-  grid-row-end: 4;
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 3;
   align-content: center;
-  justify-content: center; }
+  justify-content: center;
+  margin-left: 250px; }
+
+.masInformacion {
+  font-family: yessy; }
 
 .mapa {
   display: grid;
@@ -215,8 +411,9 @@ a {
   justify-content: center;
   grid-column-start: 2;
   grid-column-end: 3;
-  grid-row-start: 2;
-  grid-row-end: 3; }
+  grid-row-start: 1;
+  grid-row-end: 2;
+  margin-top: 200px; }
 
 .nosotros {
   display: flex;
@@ -226,54 +423,58 @@ a {
   margin-top: 10px;
   justify-content: center; }
 
-.Descripcion {
-  justify-content: center;
-  display: flex;
-  text-align: justify;
-  padding-top: 50px; }
-
-.galeria-imagenes {
+.grid {
   display: grid;
-  margin-top: 30px;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(3, 1fr); }
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: 100px 300px;
+  grid-gap: 15px; }
 
-.img2 {
+.galeria-item {
+  width: 100%;
+  height: 100%;
+  position: relative; }
+
+.galeria-item .image {
+  width: 100%;
+  height: 100%;
+  overflow: hidden; }
+
+.galeria-item .image img {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  grid-column-start: 3;
-  grid-column-end: 4;
+  object-position: 50% 50%;
+  cursor: pointer;
+  transition: .5s ease-in-out; }
+
+.galeria-item:hover .image img {
+  transform: scale(1.5); }
+
+.galeria-container-1 {
+  text-align: justify;
+  grid-column-start: 1;
+  grid-column-end: 3;
   grid-row-start: 1;
-  grid-row-end: 2; }
+  grid-row-end: 7; }
 
-.img3 {
-  padding-top: 1px;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+.galeria-container-2 {
   grid-column-start: 3;
-  grid-column-end: 4;
-  grid-row-start: 2;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 4; }
+
+.galeria-container-3 {
+  grid-column-start: 5;
+  grid-column-end: 7;
+  grid-row-start: 1;
   grid-row-end: 3; }
 
-/*.producto {
-    display: grid;
-    width: 100%;
-    height: 100vh;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(4, 1fr);
-  } 
-  
-  .titulo1 {
-    margin-top: 50px;
-    font-family: yessy;
-    display: grid;
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 2;
-    grid-row-end: 3;
-  }*/
+.galeria-container-4 {
+  grid-column-start: 5;
+  grid-column-end: 7;
+  grid-row-start: 3;
+  grid-row-end: 4; }
+
 .titulo2 {
   font-family: yessy;
   color: #867070;
@@ -285,19 +486,6 @@ a {
   grid-row-start: 2;
   grid-row-end: 3; }
 
-/*
-  .Dulce {
-    display: flex;
-    margin-top: 200px;
-    width: 50px;
-    height: 50px;
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 2;
-    grid-row-end: 3;
-    gap: 100px;
-    margin-left: 100px;
-  }*/
 .titulo3 {
   font-family: yessy;
   color: #867070;
@@ -309,34 +497,21 @@ a {
   grid-row-start: 3;
   grid-row-end: 4; }
 
-/*
-  .Pastas {
-    display: flex;
-    margin-top: 500px;
-    width: 50px;
-    height: 50px;
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 3;
-    grid-row-end: 4;
-    gap: 100px;
-    margin-left: 100px;
-  }*/
+.card-img, .card-img-bottom, .card-img-top {
+  width: 100%;
+  height: 100%; }
+
 .contenedor {
   width: 100%;
-  height: 100px;
+  height: 250px;
   background-image: url(../assets/img/cookie.jpg);
   justify-content: center;
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center; }
 
-.cards2 {
-  padding-top: 100px;
-  gap: 50px; }
-
 .descuento {
-  padding-top: 200px;
+  padding-top: 100px;
   text-align: center; }
 
 .oferta {
@@ -348,137 +523,12 @@ a {
 .vendidos {
   padding-top: 50px;
   font-family: yessy;
-  color: #867070; }
-
-.productosVendidos {
-  margin-top: 30px;
-  display: flex;
-  gap: 10px; }
+  color: #867070;
+  text-align: center; }
 
 .redesSociales {
-  margin: 50px;
+  margin: 60px;
   display: inline;
   position: fixed;
   bottom: 0;
   right: 0; }
-
-@media (max-width: 1024px) {
-  .navbar {
-    text-align: center; } }
-
-@media (max-width: 768px) {
-  .navbar {
-    padding-top: 15px;
-    padding-left: 120px;
-    padding-right: 120px;
-    position: absolute;
-    display: inline; }
-  .formulario {
-    padding-top: 30px;
-    padding-left: 50px;
-    display: grid;
-    object-fit: cover;
-    grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row-start: 2;
-    grid-row-end: 3; }
-  .contacto2 {
-    display: grid;
-    margin-top: 100px;
-    justify-content: center;
-    grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row-start: 1;
-    grid-row-end: 2;
-    padding-top: 100px;
-    text-transform: inherit; }
-  .masInformacion {
-    font-family: yessy; }
-  .mapa {
-    display: grid;
-    object-fit: cover;
-    justify-content: center;
-    grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row-start: 3;
-    grid-row-end: 4;
-    padding-top: 10px; }
-  .nosotros {
-    display: flex;
-    font-family: yessy;
-    padding-top: 100px;
-    padding-top: 200px; }
-  .galeria-imagenes {
-    display: grid;
-    margin-top: 100px;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 1fr); }
-  .productosVendidos {
-    margin-top: 30px;
-    display: inline;
-    gap: 10px; }
-  .galeria-imagenes {
-    display: inline;
-    margin-top: 100px; }
-  .titulo1 {
-    margin-top: 200px; }
-  .titulo2 {
-    padding-top: 200px; }
-  .vendidos {
-    text-align: center; }
-  .Dulce {
-    display: inline;
-    margin-top: 300px; }
-  .titulo3 {
-    margin-top: 110px; }
-  .Pastas {
-    display: inline;
-    margin-top: 1250px; } }
-
-@media (max-width: 425px) {
-  .navbar {
-    padding-top: 15px;
-    padding-left: 105px;
-    padding-right: 120px;
-    position: absolute;
-    display: inline; }
-  .formulario {
-    padding-top: 30px;
-    display: grid;
-    object-fit: cover;
-    grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row-start: 2;
-    grid-row-end: 3;
-    padding-left: 50px;
-    padding-right: 50px; }
-  .contacto2 {
-    display: grid;
-    justify-content: center;
-    grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row-start: 2;
-    grid-row-end: 3;
-    padding-top: 200px;
-    text-transform: inherit;
-    padding-left: 50px;
-    padding-right: 50px; }
-  .descuento {
-    padding-top: 250px;
-    text-align: center; }
-  .galeria-imagenes {
-    display: inline;
-    margin-top: 100px; }
-  .nosotros {
-    display: flex;
-    font-family: yessy;
-    padding-top: 300px;
-    margin-top: 10px; }
-  .Descripcion {
-    display: flex;
-    font-family: 'Ysabeau', sans-serif;
-    text-align: justify;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-left: 10px;
-    margin-right: 10px; } }
