@@ -90,7 +90,7 @@ font-family: 'Ysabeau', sans-serif;*/
 .cards {
   display: flex;
   padding-top: 100px;
-  gap: 20px; }
+  gap: 10px; }
 
 .card {
   border: none;
@@ -102,7 +102,7 @@ font-family: 'Ysabeau', sans-serif;*/
   background-color: #d5b4b4; }
 
 .card:hover {
-  transform: scale(1.05); }
+  transform: scale(1.02); }
 
 .cards2 {
   display: flex; }
@@ -114,7 +114,7 @@ font-family: 'Ysabeau', sans-serif;*/
 
 .cards2 {
   padding-top: 50px;
-  gap: 20px; }
+  gap: 10px; }
 
 .titulo {
   font-family: yessy;
@@ -363,7 +363,6 @@ a {
   font-family: yessy;
   display: grid;
   font-size: 16px;
-  color: #867070;
   justify-content: center;
   grid-column-start: 2;
   grid-column-end: 3;
