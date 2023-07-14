@@ -44,8 +44,9 @@
 
 .cards{
   display: flex;
+  margin-left: 40px;
     padding-top: 100px;
-    gap: 10px;  
+    gap: 50px;  
   
 }
   
@@ -73,7 +74,8 @@
 
   .cards2{
     padding-top: 50px;
-    gap: 10px;
+    gap: 50px;
+    margin-left: 40px;
 }
 .titulo{
   font-family: yessy;
