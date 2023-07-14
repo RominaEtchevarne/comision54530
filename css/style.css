@@ -463,17 +463,19 @@ nav #toggle, nav label {
   align-content: center;
   background-image: url(../assets/img/mini-tarta-lemon.jpg);
   background-size: cover;
-  height: 100vh; }
+  height: 75vh; }
 
 .envios {
   font-family: yessy;
   display: grid;
   font-size: 16px;
-  justify-content: center;
+  margin-left: 80px;
   grid-column-start: 2;
   grid-column-end: 3;
-  grid-row-start: 4;
-  grid-row-end: 5; }
+  grid-row-start: 1;
+  grid-row-end: 2;
+  margin-top: 150px;
+  margin-left: 150px; }
 
 .contacto2 {
   font-family: yessy;
@@ -493,13 +495,16 @@ nav #toggle, nav label {
 .formulario {
   display: grid;
   object-fit: cover;
-  grid-column-start: 1;
+  grid-column-start: 3;
   grid-column-end: 4;
-  grid-row-start: 2;
+  grid-row-start: 1;
   grid-row-end: 3;
   align-content: center;
   justify-content: center;
-  margin-left: 250px; }
+  margin-left: 20px; }
+
+.fieldset {
+  gap: 10px; }
 
 .masInformacion {
   font-family: yessy; }
