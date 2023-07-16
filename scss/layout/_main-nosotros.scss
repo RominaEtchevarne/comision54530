@@ -17,6 +17,7 @@
 .grid-galeria{
     @include grid (repeat (6,1fr),100px 300px, 15px, center, center) ;
     margin-top: 20px;
+    margin-right: 20px;
 }
 
 .galeria-item{
