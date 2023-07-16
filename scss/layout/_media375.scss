@@ -1,63 +1,15 @@
 @media (max-width:375px){
-    .grid {
-        grid-template-columns: repeat(6, 1fr);
-        grid-template-rows: 100px 300px;
-        grid-gap: 15px;
+    .navbar{
+        text-align: center;
     }
-    .galeria-container-1 {
-        grid-column-start: 1;
-        grid-row-start: 1;
-        grid-row-end: 7;
+    
+    .grid{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
-    .galeria-container-2 {
-        grid-column-start: 1;
-        grid-column-end: 5;
-        grid-row-start: 3;
-        grid-row-end: 4;
-    }
-    .galeria-container-3 {
-        grid-column-start: 5;
-        grid-column-end: 7;
-        grid-row-start: 3;
-        grid-row-end: 3;
-    }
-    .galeria-container-4 {
-        grid-column-start: 1;
-        grid-column-end: 7;
-        grid-row-start: 5;
-        grid-row-end: 6;
-    }
-
-    .contacto {
-        grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: repeat(6, 1fr);  
-        width: 100vh;
-    }
-    .envios {
-        grid-column-start: 2;
-        grid-column-end: 3;
-        grid-row-start: 6;
-        grid-row-end: 7;
-    }
-    .contacto2 {
-        grid-column-start: 2;
-        grid-column-end: 2;
-        grid-row-start: 3;
-        grid-row-end: 2;
-        margin-top: 80px;
-    }
-    .mapa {
-        grid-column-start: 2;
-        grid-column-end: 3;
-        grid-row-start: 1;
-        grid-row-end: 2;
-        margin-top: 200px;
-    }
-    .formulario {
-        grid-column-start: 2;
-        grid-column-end: 4;
-        grid-row-start: 4;
-        grid-row-end: 5;
-        margin-left: 50px;
-    }
+    
+    
 }
+    
+    
