@@ -1,31 +1,21 @@
 .contacto{
-    @include grid(repeat(3,1fr),repear(2,1fr),10px,center,center,);
     background-image: url(../assets/img/mini-tarta-lemon.jpg);
     background-size: cover;
-    height: 75vh;
+    height: 70vh;
 }
 .envios{
     @include tipografia;
-    display: grid;
+    display: flex;
+    justify-content: center;
     font-size: 16px;
     margin-left: 80px;
-    grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row-start: 1;
-    grid-row-end: 2;
-    margin-top: 150px;
-    margin-left: 150px;
+
 }
 .contacto2{
     @include tipografia;
-    display: grid;
-    align-content: center;
-    justify-content: center;
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 1;
-    grid-row-end: 2;
-    margin-top: 80px;
+    display: flex;
+    margin-top: 10px;
+    margin-left: 10px;
 }
 .pueblo{
     display: flex;
@@ -38,29 +28,20 @@
     @extend .pueblo;
 }
 .formulario{
-    display: grid;
     object-fit: cover;
-    grid-column-start: 3;
-    grid-column-end: 4;
-    grid-row-start: 1;
-    grid-row-end: 3;
     align-content: center;
     justify-content: center;
-    margin-left: 20px;
+    display: flex;
 }
 .fieldset{
     gap: 10px;
+
 }
 .masInformacion{
     @include tipografia;
 }
 .mapa{
-    display: grid;
+    display: flex;
     object-fit: cover;
     justify-content: center;
-    grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row-start: 1;
-    grid-row-end: 2;
-    margin-top: 200px;
 }
